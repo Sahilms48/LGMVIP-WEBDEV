@@ -1,0 +1,342 @@
+html{
+    scroll-behavior: smooth;
+}
+.header h1 {
+font-size: 40px;
+font-weight: 500;
+}
+.navbar {
+overflow: hidden;
+background-color:black;
+width: 100%;
+top:0px;
+}
+
+
+.navbar a {
+float:left;
+display: block;
+color: white;
+text-align:center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+img{
+    cursor: pointer;
+    width: 170px;
+    height: 250px;
+    /*margin-left: 20%;*/
+}
+
+.col-sm-4{
+    text-align: center;
+}
+
+.col-sm-4:hover{
+    background-color:rgba(245, 245, 245, 0.596);
+    padding: 3px;
+    
+}
+
+#title{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    
+}
+h1{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-weight: 500;
+
+}
+hr{
+    height:2px;border-width:0;color:gray;background-color:gray;
+}
+
+.side{
+    margin-left: 20px;
+}
+
+.button{
+    padding: 12px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card{
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.card-img{
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    
+}
+.card .button{
+    background-color:lawngreen;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#bestseller{
+    border-radius: 20px;
+    border-style: solid;
+}
+#Authors{
+    background-image: url(https://wallpapercave.com/wp/wp2633736.png);
+    background-size: cover;
+    padding: 3px;
+    border-radius: 20px;
+    border-style: solid;
+}
+#Authors .button{
+    background: lightcyan;
+    font-size: 15px;
+    border-radius :7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#footer{
+    border-style: solid;
+    background-color:black;
+}
+#footer h3{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+#footer hr{
+    height: 1px;
+    color: white;
+}
+#footer p{
+    color: lightslategrey;
+    cursor: pointer;
+}
+#footer .icon{
+    margin-top: 10px;
+    border-radius: 10px;;
+    font-size: 30px;
+    width: 100%;
+    display:inline-block;
+    background-color: lightgrey;
+}
+#footer .icon:hover{
+    cursor: pointer;
+}
+.Abtus{
+    display:inline;
+    margin-left: 40px;
+}
+.Comp{
+    margin-left: 100px;
+}
+.social{
+    margin-left: 200px;
+    display:inline-block;
+}
+.details{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+
+.row {  
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+}
+
+
+.side {
+
+padding: 20px;
+}
+
+
+.main {   
+
+background-color: white;
+padding: 20px;
+}
+
+#contact{
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-size: cover;
+border-radius: 20px;
+border-style: solid;
+background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/08/04/598645-book-lover-s-day-080517.jpg);
+}
+#contact .content{
+max-width: 800px;
+text-align: center;
+}
+#contact .content h2{
+
+font-weight: 700;
+color: black;
+margin-top: 20px;
+font-size:xx-large;
+
+}
+#contact .content p{
+font-weight: 300;
+font-size: 20px;
+color:black;
+}
+.concontainer{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.concontainer .contactInfo{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.container .contactInfo .box{
+padding: 20px 0;
+display: flex;
+}
+.concontainer .contactInfo .box .icon{
+min-height: 60px;
+height: 60px;
+background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+width: 60px;
+}
+.concontainer .contactInfo .box .icon:hover{
+transform: scale(1.1);
+transition: 0.2s;
+}
+.concontainer .contactInfo .box .text2{
+display: flex;
+margin-left: 7px;
+font-size: 16px;
+color: black;
+flex-direction: column;
+font-weight: 300;
+}
+.concontainer .contactInfo .box .text2 h3{
+font-weight: 500;
+font-size: 30px;
+color:rgb(20, 1, 1);
+}
+.contactForm{
+width: 40%;
+padding: 40px;
+background: white;
+}
+.contactForm h2{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+}
+.contactForm .inputBox{
+
+width: 100%;
+margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+}
+.contactForm .inputBox span{
+
+left: 0;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color: #666;
+}
+
+.contactForm .inputBox input[type="submit"]{
+width: 100px;
+background:red;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+font-size: 18px;
+}
+.contactForm .inputBox input[type="submit"]:hover{
+color: black;
+transform: scale(1.01);
+}
+#allcat{
+border-radius: 20px;
+border-style: solid;
+padding: 50px 100px;
+background-image: url();
+background-size: cover;
+
+}
+.navbar .search-container {
+float: right;
+}
+
+.navbar input[type=text] {
+padding: 2px;
+margin-top: 8px;
+font-size: 16px;
+background-color: whitesmoke;
+border:#fff;
+width: 250px;
+}
+
+.navbar .search-container button {
+float: right;
+padding: 5px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background: #ddd;
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+background: #ccc;
+}
